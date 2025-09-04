@@ -1,0 +1,52 @@
+
+<!-- // Set Content Security Policy
+header("Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self';"); -->
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+      <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" type="text/css" href="index.css">
+      <link rel="stylesheet" type="text/css" href="orbit.css">
+      <link rel="stylesheet" type="text/css" href="satellite.css">
+      <link rel="stylesheet" type="text/css" href="projects.css">
+      
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Puppies+Play&display=swap&family=Darker+Grotesque:wght@300..900&display=swap" rel="stylesheet">
+
+
+    <title>SNL</title>
+  </head>
+  <body>
+    <div class='logo-container'>
+      
+      <a href="./aboutme.html" class='logo'>
+           SnL
+      </a>
+
+      <div class='solar-canvas'>
+        <div class='solar-system'>
+            <svg class='orbit' height="100vh" width="100vw" xmlns="http://www.w3.org/2000/svg">
+              <circle r="20vh" cx="50vw" cy="50vh" fill="none" stroke="white" stroke-width="1" />
+            </svg>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  </script>
+  <script src="./OrbitControls.js"></script>
+  <script src="./pre_setup.js"></script>
+  <script src="./bsc_2.json.js"></script>
+  <script src="./index.js"></script>
+  <script src="./orbit.js"></script>
+
+</html>

@@ -1,0 +1,35 @@
+.card{
+    background-color: white;
+    border: 3px solid #cc7d2e;
+    border-radius: 10px;
+    width:50vw;
+    max-width: 500px;
+    text-align: center;
+    height: max-content;
+    font-family: 'Darker Grotesque', sans-serif;
+    padding: 5px;
+    margin: auto;
+}
+
+.break {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.project-name{
+    font-style:normal;
+    line-height: 1rem;
+    font-size: x-large;
+
+}
+
+.project-desc{
+    font-style: normal;
+    text-align: justify;
+}
+
+.project-tech{
+    font-style: normal;
+    text-align: center;
+}

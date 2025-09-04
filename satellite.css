@@ -1,0 +1,57 @@
+#projectpage-link {
+    position: absolute;
+    border-radius: 100%;
+    width: 3vh;
+    height: 3vh;
+    /* h and w changes */
+    background: #cc7d2e;
+    animation: orbit 10s infinite linear; 
+    /* change time */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    content-visibility: hidden;
+    /* animation-delay: calc(); */
+    color: black;    
+}
+
+    @keyframes orbit {
+        0% {
+            transform: rotate(0deg) translateY(20vh) rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg) translateY(20vh) rotate(-360deg);
+        }
+    }
+
+
+#projectpage-link:hover{
+    animation-play-state: paused;
+    content-visibility: visible;
+    
+}
+
+.project-content {
+    font-family: 'Darker Grotesque';
+    border: 1px solid #834f1c;
+    background-color: #cc7d2e;
+    border-radius: 12px;
+    position: absolute;
+    left: 100%;
+    height: fit-content;
+    width: 20vw;
+    padding: 10px;
+}
+
+
+/* .button{
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    background-color: #cc7d2e;
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+} */

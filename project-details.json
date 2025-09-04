@@ -1,0 +1,19 @@
+{"projects":[
+        {
+            "title":"Habit Tracker",
+            "description":"A command line app to help you build good habits and break bad ones.",
+            "tech":"Python"
+        },
+        {
+            "title":"Krupo",
+            "description":"Find people who need help, find people who can help, all in your locality.",
+            "tech":"Django, Django REST Framework, React"
+        },
+        {
+            "title":"Serv-In",
+            "description":"A platform to connect service providers with customers in need of various services.",
+            "tech":"Django, Django REST Framework, React, Machine Learning"
+        }
+
+    ]
+}

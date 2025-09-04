@@ -1,0 +1,7 @@
+<style>
+    <?php require "./projects.css" ?>
+</style>
+
+<div class="projects">
+    <?php include 'projectcard.php'; ?>
+</div>

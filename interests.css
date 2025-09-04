@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#interests {
+    color: white;
+    /* border: 1px solid white; */
+    /* margin: auto; */
+    /* display: flex; */
+    text-align: justify;
+    /* align-content: center;    */
+    /* padding: 10vh 10vw; */
+    background-color: #2D1F44;
+     /* background-color: transparent; */
+    font-family: "Darker Grotesque";
+    padding: 10vh 10vw;
+    font-size: 1rem;
+    height: 100vh;
+}
+
+p {
+    line-height: 1rem;
+    text-align: justify;
+    
+}
+
+h4 {
+    font-style: italic;
+    font-weight: normal;
+}
+
+span{
+    font-style: normal;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
