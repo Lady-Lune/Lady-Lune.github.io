@@ -1,4 +1,5 @@
 // Fetch and display projects from project-details.json
+// Styling is in satellite.css
 fetch('project-details.json')
 	.then(response => response.json())
 	.then(data => {
@@ -22,6 +23,5 @@ fetch('project-details.json')
 			link.appendChild(projectDiv);
 			container.appendChild(link);
 		});
-		// document.body.appendChild(container);
 	})
 	.catch(error => console.error('Error loading projects:', error));

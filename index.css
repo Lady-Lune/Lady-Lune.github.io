@@ -31,9 +31,15 @@ body{
 
 .logo {
   font-family: 'Puppies Play';
+  font-weight: bold;
   font-size: 20vh;
   color: #f1f1f1;
   position:absolute;
   text-decoration: none;
   z-index: 1;
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.logo:hover {
+  text-shadow: 0px 0px 50px #cc7d2e;
 }

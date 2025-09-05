@@ -6,14 +6,12 @@
     /* h and w changes */
     background: #cc7d2e;
     animation: orbit 10s infinite linear; 
-    /* change time */
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     content-visibility: hidden;
-    /* animation-delay: calc(); */
-    color: black;    
+    color: black;   
 }
 
     @keyframes orbit {
@@ -30,7 +28,9 @@
 #projectpage-link:hover{
     animation-play-state: paused;
     content-visibility: visible;
+    box-shadow: 0px 0px 10px #cc7d2e;
     
+
 }
 
 .project-content {
@@ -44,14 +44,3 @@
     width: 20vw;
     padding: 10px;
 }
-
-
-/* .button{
-    height: 90%;
-    width: 90%;
-    border-radius: 50%;
-    background-color: #cc7d2e;
-    border: none;
-    cursor: pointer;
-    border: 1px solid black;
-} */
